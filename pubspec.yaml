@@ -22,3 +22,13 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/photo-not-found.jpg
+  fonts:
+    - family: Parkinsans
+      fonts:
+        - asset: assets/fonts/static/Parkinsans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/static/Parkinsans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/static/Parkinsans-Regular.ttf
