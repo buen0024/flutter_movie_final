@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'themes/app_theme.dart';
 import 'screens/welcome_screen.dart';
+import 'screens/share_code_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -17,6 +18,7 @@ class MainApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => WelcomeScreen(),
+        '/shareCode': (context) => ShareCodeScreen(),
       },
     );
   }
